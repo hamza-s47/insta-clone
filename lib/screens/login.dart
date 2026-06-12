@@ -38,6 +38,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 height: 64,
                 colorFilter: ColorFilter.mode(primaryColor, BlendMode.srcIn),
               ),
+              SizedBox(height: 12),
+
               // input for email
               TextFieldInput(
                 textEditingController: _emailController,
@@ -75,7 +77,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 children: [
                   Container(
                     padding: const EdgeInsets.symmetric(vertical: 8),
-                    child: const Text("Don't have an account?"),
+                    child: const Text("Don't have an account? "),
                   ),
                   GestureDetector(
                     onTap: () {},

@@ -42,7 +42,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 height: 64,
                 colorFilter: ColorFilter.mode(primaryColor, BlendMode.srcIn),
               ),
-              SizedBox(height: 24),
+              SizedBox(height: 12),
               // profile picture
               Stack(
                 children: [
@@ -112,7 +112,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 children: [
                   Container(
                     padding: const EdgeInsets.symmetric(vertical: 8),
-                    child: const Text("Already have an account?"),
+                    child: const Text("Already have an account? "),
                   ),
                   GestureDetector(
                     onTap: () {},

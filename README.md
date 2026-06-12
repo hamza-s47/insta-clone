@@ -17,3 +17,35 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 # ctrl + . (wrap widget)
+
+Scaffold
+└── SafeArea
+    └── Container
+        └── Column
+            ├── Flexible
+            ├── SvgPicture
+            ├── SizedBox
+            ├── Stack
+            │   ├── CircleAvatar
+            │   └── Positioned
+            │       └── IconButton
+            ├── SizedBox
+            ├── TextFieldInput
+            ├── SizedBox
+            ├── TextFieldInput
+            ├── SizedBox
+            ├── TextFieldInput
+            ├── SizedBox
+            ├── TextFieldInput
+            ├── SizedBox
+            ├── InkWell
+            │   └── Container
+            │       └── Text
+            ├── SizedBox
+            ├── Flexible
+            └── Row
+                ├── Container
+                │   └── Text
+                └── GestureDetector
+                    └── Container
+                        └── Text
